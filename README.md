@@ -1,48 +1,56 @@
-
 <p align="center">
-<img src="./public/logo.png" alt="logo" width="300" style="display: block; margin: 0 auto"/>
+  <img src="./public/logo.png" alt="Casio Theme logo" width="220"/>
 </p>
-<br>
-<h1 align="center" style= "font-size: 40px">
-🕹️ Casio Theme
-</h1>
 
-Welcome to the Casio Theme for Visual Studio, a fresh and modern look for your favorite IDE! Inspired by a timeless design, this theme brings a touch of nostalgia to your coding environment, while also providing a comfortable and eye-catching experience.
+# 🕹️ Casio Theme
 
-If you're tired of the boring, monochromatic Visual Studio default theme, give Casio a try!
+A retro-inspired, high-contrast-friendly Visual Studio Code theme pack for developers who want bold personality instead of generic palettes.
 
-## 📸 Screenshots
-### 🦀 Rust
-![image](./public/Dark.png)
-### 🟠 Html & 🔵 Css
-![image](./public/html_and_css.png)
-### 💙 Typescript
-![image](./public/typescript.png)
+## Theme variants
+This extension ships multiple dark variants:
+- Casio Theme
+- Casio Theme Darker
+- Casio Theme Darker Flat
+- Casio Theme Flat
+- Casio Theme Dark Pro
+- Casio Theme High Contrast
 
-## ✨ Features
+## Screenshots
+### Rust
+![Rust screenshot](./public/Dark.png)
 
-- 🚀 Retro design with Casio color vibes
-- 🕰️ Nostalgic coding experience
-- 🙌 Easy on the eyes for extended coding sessions
-- 🌈 A colorful palette that enhances syntax highlighting and code readability
-- 🎨 A balanced mix of vibrant and muted tones that promotes a calm and focused mindset
-- 🎯 An intuitive and consistent UI design that reduces distractions and enhances productivity
+### HTML + CSS
+![HTML and CSS screenshot](./public/html_and_css.png)
 
+### TypeScript
+![TypeScript screenshot](./public/typescript.png)
 
-## 📦 Installation
+## Installation (VS Code)
+1. Open **Visual Studio Code**.
+2. Open **Extensions** (`Ctrl/Cmd + Shift + X`).
+3. Search for **Casio Theme**.
+4. Click **Install**.
+5. Open **Preferences: Color Theme** and pick a Casio variant.
 
-1. Open Visual Studio
-2. Go to **Extensions** > **Manage Extensions**
-3. Search for **Casio Theme**
-4. Click **Install**
-5. Select **Casio Theme** from **Tools** > **Options** > **Environment** > **General** > **Color theme**
-6. Enjoy!
+## Local development
 
+```bash
+pnpm install
+pnpm lint
+pnpm format
+```
 
-## 📝 License
+### Project layout
+```txt
+themes/   # VS Code theme JSON files
+public/   # Branding and screenshots
+```
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 📜
+## Professional roadmap
+See [ROADMAP.md](./ROADMAP.md) for short-term improvements and strategic direction.
 
+## Contributing
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for branch naming, checks, and PR expectations.
 
-## ❤️ Created with love
-The Casio theme was created with ❤️ by  **ElShyrux**. If you like it, please consider giving it a ⭐️ on GitHub!
+## License
+MIT — see [LICENSE](./LICENSE).
