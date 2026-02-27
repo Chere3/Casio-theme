@@ -39,10 +39,20 @@ If you're tired of the boring, monochromatic Visual Studio default theme, give C
 6. Enjoy!
 
 
+## 🛠️ Development
+
+```bash
+pnpm install
+pnpm lint
+pnpm format
+```
+
+For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+Project planning and modernization steps are tracked in [ROADMAP.md](./ROADMAP.md).
+
 ## 📝 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 📜
 
-
 ## ❤️ Created with love
-The Casio theme was created with ❤️ by  **ElShyrux**. If you like it, please consider giving it a ⭐️ on GitHub!
+The Casio theme was created with ❤️ by **ElShyrux**. If you like it, please consider giving it a ⭐️ on GitHub!
