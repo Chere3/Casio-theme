@@ -12,7 +12,9 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint ./themes/** --ext .json,.js --fix",
-    "format": "prettier --write ./themes/**"
+    "lint:check": "eslint ./themes/** --ext .json,.js",
+    "format": "prettier --write ./themes/**",
+    "format:check": "prettier --check ./themes/**"
   },
   "contributes": {
     "themes": [
@@ -49,7 +51,7 @@
     ]
   },
   "repository": {
-    "url": "https://github.com/ChirujanoCodding/Casio-theme"
+    "url": "https://github.com/Chere3/Casio-theme"
   },
   "publisher": "ElShyrux",
   "icon": "public/logo.ico",

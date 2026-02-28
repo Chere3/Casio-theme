@@ -39,6 +39,20 @@ If you're tired of the boring, monochromatic Visual Studio default theme, give C
 6. Enjoy!
 
 
+## 🛠️ Development
+
+```bash
+pnpm install
+pnpm run lint:check
+pnpm run format:check
+```
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution workflow.
+
+## 🗺️ Roadmap
+
+Project direction is tracked in [ROADMAP.md](./ROADMAP.md).
+
 ## 📝 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 📜
