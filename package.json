@@ -11,8 +11,11 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint ./themes/** --ext .json,.js --fix",
-    "format": "prettier --write ./themes/**"
+    "lint": "eslint ./themes/** --ext .json,.js",
+    "lint:fix": "eslint ./themes/** --ext .json,.js --fix",
+    "format": "prettier --write ./themes/**",
+    "format:check": "prettier --check ./themes/**",
+    "validate": "pnpm run lint && pnpm run format:check"
   },
   "contributes": {
     "themes": [

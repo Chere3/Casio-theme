@@ -1,48 +1,62 @@
+# 🕹️ Casio Theme
 
-<p align="center">
-<img src="./public/logo.png" alt="logo" width="300" style="display: block; margin: 0 auto"/>
-</p>
-<br>
-<h1 align="center" style= "font-size: 40px">
-🕹️ Casio Theme
-</h1>
+A retro-inspired Visual Studio color theme focused on readability, contrast balance, and long coding sessions.
 
-Welcome to the Casio Theme for Visual Studio, a fresh and modern look for your favorite IDE! Inspired by a timeless design, this theme brings a touch of nostalgia to your coding environment, while also providing a comfortable and eye-catching experience.
+## Why Casio Theme
+- Distinct palette inspired by classic Casio aesthetics.
+- Multiple dark variants to match different contrast preferences.
+- Language-friendly syntax colors for day-to-day development.
 
-If you're tired of the boring, monochromatic Visual Studio default theme, give Casio a try!
+## Included themes
+- Casio Theme
+- Casio Theme Darker
+- Casio Theme Darker Flat
+- Casio Theme Flat
+- Casio Theme Dark Pro
+- Casio Theme High Contrast
 
-## 📸 Screenshots
-### 🦀 Rust
-![image](./public/Dark.png)
-### 🟠 Html & 🔵 Css
-![image](./public/html_and_css.png)
-### 💙 Typescript
-![image](./public/typescript.png)
+## Installation (Visual Studio)
+1. Open **Extensions → Manage Extensions**.
+2. Search for **Casio Theme**.
+3. Install and restart Visual Studio.
+4. Select via **Tools → Options → Environment → General → Color theme**.
 
-## ✨ Features
+## Screenshots
+![Rust](./public/Dark.png)
+![HTML/CSS](./public/html_and_css.png)
+![TypeScript](./public/typescript.png)
 
-- 🚀 Retro design with Casio color vibes
-- 🕰️ Nostalgic coding experience
-- 🙌 Easy on the eyes for extended coding sessions
-- 🌈 A colorful palette that enhances syntax highlighting and code readability
-- 🎨 A balanced mix of vibrant and muted tones that promotes a calm and focused mindset
-- 🎯 An intuitive and consistent UI design that reduces distractions and enhances productivity
+## Development
+### Requirements
+- Node.js 20+
+- pnpm 9+
 
+### Commands
+```bash
+pnpm install
+pnpm run lint          # lint JSON/theme files
+pnpm run format        # auto-format theme files
+pnpm run format:check  # verify formatting only
+pnpm run validate      # lint + formatting checks
+```
 
-## 📦 Installation
+## Release flow
+1. Update theme files and screenshots.
+2. Run `pnpm run validate`.
+3. Bump version and changelog.
+4. Publish extension package.
 
-1. Open Visual Studio
-2. Go to **Extensions** > **Manage Extensions**
-3. Search for **Casio Theme**
-4. Click **Install**
-5. Select **Casio Theme** from **Tools** > **Options** > **Environment** > **General** > **Color theme**
-6. Enjoy!
+## Compatibility
+- Visual Studio engine target: `^1.77.0`
+- Category: `Themes`
 
+## Troubleshooting
+- Theme not listed: restart Visual Studio after install.
+- Colors look stale: disable/re-enable the theme and reload VS.
+- Contributor lint failures: run `pnpm run format` before committing.
 
-## 📝 License
+## Contributing
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for branch, quality, and PR expectations.
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 📜
-
-
-## ❤️ Created with love
-The Casio theme was created with ❤️ by  **ElShyrux**. If you like it, please consider giving it a ⭐️ on GitHub!
+## License
+MIT © ElShyrux
