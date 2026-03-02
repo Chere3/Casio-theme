@@ -1,0 +1,46 @@
+name: 🎨 Palette Request
+description: Suggest a new color palette or theme variant
+title: "[Palette]: "
+labels: ["enhancement", "palette"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new Casio color palette? We'd love to hear it!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Palette Description
+      description: Describe your palette idea and the vibe you're going for
+      placeholder: "A warmer variant with amber and orange tones for late-night coding..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: colors
+    attributes:
+      label: Suggested Colors (optional)
+      description: If you have specific hex codes in mind, list them here
+      placeholder: |
+        Background: #1a1a2e
+        Foreground: #eaeaea
+        Accent: #e94560
+    validations:
+      required: false
+
+  - type: textarea
+    id: inspiration
+    attributes:
+      label: Inspiration
+      description: Link to screenshots, other themes, or design references
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contrast
+    attributes:
+      label: Accessibility Preferences
+      options:
+        - label: This palette should prioritize high contrast for readability
+        - label: This palette should work well with semantic highlighting
