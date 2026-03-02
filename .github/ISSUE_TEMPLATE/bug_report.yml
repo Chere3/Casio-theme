@@ -1,0 +1,69 @@
+name: 🐛 Bug Report
+description: Report a visual issue or unexpected behavior with the theme
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this issue! Please fill out the details below.
+
+  - type: dropdown
+    id: theme-variant
+    attributes:
+      label: Theme Variant
+      description: Which Casio theme variant are you using?
+      options:
+        - Casio Theme
+        - Casio Theme Darker
+        - Casio Theme Darker Flat
+        - Casio Theme Flat
+        - Casio Theme Dark Pro
+        - Casio Theme High Contrast
+    validations:
+      required: true
+
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code Version
+      description: "Run `code --version` to find this"
+      placeholder: "1.85.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the visual issue you're experiencing
+      placeholder: "The comment color is too similar to the string color in Python files..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots showing the issue (drag and drop)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Programming Language (if applicable)
+      description: Which language file shows this issue?
+      options:
+        - TypeScript/JavaScript
+        - Python
+        - Rust
+        - Go
+        - Java
+        - C/C++
+        - HTML/CSS
+        - Markdown
+        - JSON/YAML
+        - Other
+    validations:
+      required: false
